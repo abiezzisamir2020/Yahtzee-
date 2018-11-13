@@ -1,0 +1,16 @@
+ public static int twos(int a, int b, int c, int d, int e){
+        int numTwos = 0;
+        if(a == 2){
+            numTwos = numTwos + 1;
+        }if(b== 2){
+            numTwos= numTwos + 1;
+        }if(c== 2){
+            numTwos = numTwos +1;
+        }if(d== 2){
+            numTwos = numTwos +1;
+        }if(e== 2) {
+            numTwos = numTwos + 1;
+        }
+        int totalTwos = numTwos*6;
+        return totalTwos;
+    }}
